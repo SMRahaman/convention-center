@@ -1,0 +1,406 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common css */
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+
+section {
+
+    margin-top: 100px;
+}
+
+/* CSS */
+
+
+
+.logo {
+
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+}
+
+.nav-link {
+
+    font-size: 16px;
+    line-height: 24px
+}
+
+
+.slider {
+    width: 100%;
+
+}
+
+.slider .carousel-item img {
+
+    width: 100%;
+    min-height: 60vh;
+}
+
+
+.carousel-caption {
+
+    bottom: 70px;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+.carousel-caption h1 {
+
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.marrige-info h1 {
+
+    color: #0A0826;
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.marrige-info p {
+
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.button {
+
+    width: 230px;
+    height: 44px;
+    background-color: #3F87F5;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-1 {
+
+    width: 230px;
+    height: 44px;
+    background-color: #3F87F5;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-1 {
+
+    display: none;
+}
+
+.heading-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.package {
+
+    width: 250px;
+    height: 450px;
+    padding: 20px 20px;
+}
+
+
+
+.package:hover {
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1.1);
+    transition: all linear 0.5s;
+
+
+}
+
+.package h1 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+    font-weight: 700;
+}
+
+.package h2 {
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+    font-weight: 700;
+}
+
+.package:hover h1,
+.package:hover h2,
+.package:hover p,
+.package:hover ul.package_list li {
+    color: #fff;
+}
+
+.package:hover .package-button {
+    background-color: #fff;
+    color: black;
+    opacity: 1;
+}
+
+.package h2 {
+
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+    font-weight: 700;
+}
+
+.package p {
+
+    font-size: 15px;
+    line-height: 23px;
+    color: #848199;
+    font-weight: 400;
+}
+
+.package ul {
+
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.package ul li {
+
+    font-size: 15px;
+    line-height: 23px;
+    color: #848199;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+
+.package .fa-check {
+
+    width: 25px;
+    height: 25px;
+    background-color: rgba(82, 67, 194, 0.103693);
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 15px;
+
+
+}
+
+.package-button {
+
+    width: 207px;
+    height: 45px;
+    background-color: #F496D1;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 24px;
+}
+
+.client {
+
+    width: 360px;
+    height: 340px;
+    text-align: center;
+    padding: 27px 40px;
+    background-color: #ffffff;
+    margin-right: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.client p {
+
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #6C6C6C;
+}
+
+.client img {
+
+    margin-bottom: 15px;
+}
+
+.client h5 {
+
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.accordion-item {
+
+    border: none !important;
+
+}
+
+.accr-item {
+
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.footer {
+
+    background-color: #0B0D17;
+    color: white;
+    width: 100%;
+    padding: 50px 0px;
+
+}
+
+.footer-app {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.footer-app img {
+
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:575px) {
+
+    section {
+
+        margin-top: 50px;
+
+    }
+
+    .heading-title {
+
+        margin-bottom: 50px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider-cap {
+
+        bottom: 40px;
+        width: 80%;
+        left: 0;
+        right: 0;
+    }
+
+    .slider-cap h1 {
+
+        font-size: 25px;
+        margin-bottom: 18px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    .slider-cap p {
+
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .marrige-sec {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .marrige-info {
+
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .button {
+
+        display: none;
+    }
+
+    .button-1 {
+
+        display: block;
+        margin-top: 20px;
+
+
+    }
+
+    .middle {
+
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    .package {
+
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-title {
+
+        text-align: center;
+    }
+
+    .footer-app {
+
+
+        align-items: center;
+        margin-top: 20px
+    }
+
+    .fqa {
+
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+
+}

@@ -4,7 +4,7 @@
 /* common css */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+
 }
 
 
@@ -402,5 +402,10 @@ section {
         flex-flow: column-reverse;
     }
 
+    .client {
+
+        margin-left: 4px;
+        margin-bottom: 40px;
+    }
 
 }

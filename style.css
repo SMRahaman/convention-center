@@ -404,8 +404,8 @@ section {
 
     .client {
 
-        margin-left: 4px;
-        margin-bottom: 40px;
+        width: 95%;
+        margin: 15px auto;
     }
 
 }
